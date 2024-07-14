@@ -11,6 +11,9 @@ grpcio = "^1.64.1"
 grpcio-tools = "^1.64.1"
 
 
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

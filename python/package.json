@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gen": "poetry run python -m grpc_tools.protoc -I ../proto/ --python_out=./autogen --pyi_out=./autogen --grpc_python_out=./autogen ../proto/sample.proto"
+    "gen": "poetry run python -m grpc_tools.protoc -I ../hellogrpc/proto/ --python_out=./python/autogen --pyi_out=./python/autogen --grpc_python_out=./python/autogen ../hellogrpc/proto/sample.proto"
   }
 }
