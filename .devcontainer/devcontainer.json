@@ -15,7 +15,8 @@
 			"extensions": [
 				"zxh404.vscode-proto3",
 				"ms-azuretools.vscode-docker",
-				"tamasfe.even-better-toml"
+				"tamasfe.even-better-toml",
+				"ms-python.vscode-pylance"
 			]
 		}
 	}
